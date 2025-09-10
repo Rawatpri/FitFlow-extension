@@ -1,0 +1,22 @@
+
+{
+  
+  "manifest_version": 3,
+  "name": "FitFlow \u2014 Breezy Workout Finder (Plus v1.2)",
+  "version": "1.2.0",
+  "description": "Warm & dark themes, better pregnancy labeling, band exercises, and a more useful plan copier.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "FitFlow"
+  },
+  "permissions": [
+    "storage",
+    "contextMenus",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "options_page": "options.html",
+  "incognito": "split"
+}

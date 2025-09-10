@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitFlow Options</title>
+  <style>
+    body{font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial;padding:16px;color:#1b1b1b;background:#fffdf8}
+    label{display:grid;gap:6px;margin:10px 0}
+    input{padding:8px;border:1px solid #eae7dd;border-radius:10px}
+    button{padding:8px 12px;border-radius:10px;border:1px solid #eae7dd;background:#fff}
+    .muted{color:#6e6b65}
+  </style>
+</head>
+<body>
+  <h1>FitFlow Options</h1>
+  <p class="muted">No configuration needed. If you later add an API key (e.g., YouTube), you can store it here.</p>
+  <label>
+    YouTube API Key (optional)
+    <input id="ytKey" type="text" placeholder="AIza..." />
+  </label>
+  <button id="saveBtn">Save</button>
+
+  <script>
+    const K = "ff_yt_key";
+    (async function init(){
+      const key = await new Promise(r=>chrome.storage.sync.get([K], v=>r(v[K]||"")));
+      document.getElementById("ytKey").value = key;
+    })();
+    document.getElementById("saveBtn").addEventListener("click", ()=>{
+      const v = document.getElementById("ytKey").value.trim();
+      chrome.storage.sync.set({ [K]: v }, ()=>{ alert("Saved"); });
+    });
+  </script>
+</body>
+</html>

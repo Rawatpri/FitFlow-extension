@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FitFlow</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="warm">
+  <header class="topbar">
+    <div class="brand">
+      <div class="leaf" aria-hidden="true">🌿</div>
+      <h1>FitFlow</h1>
+    </div>
+    <nav class="top-actions">
+      <a class="ghost small" href="privacy.html" target="_blank" rel="noopener noreferrer" aria-label="Open privacy info">Privacy</a>
+      <button id="themeToggle" class="ghost" title="Toggle theme" aria-label="Toggle theme">🌞/🌜</button>
+    </nav>
+  </header>
+
+  <section id="onboard" class="onboard" role="dialog" aria-live="polite" aria-label="Welcome">
+    <div class="onboard-inner">
+      <strong>Welcome!</strong>
+      <ol>
+        <li>Type to <em>search</em> exercises</li>
+        <li>Tap <em>pills</em> to filter</li>
+        <li>Add to <em>My Flow</em> with ➕</li>
+      </ol>
+      <div class="row">
+        <button id="dismissOnboard" class="primary small">Got it</button>
+        <button id="tryPreset" class="ghost small">Try a preset</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="searchbar">
+    <input id="q" type="search" placeholder="Search movements… (e.g., band row)" aria-label="Search exercises" />
+  </section>
+
+  <section class="filters" aria-label="Filters">
+    <div class="pillgroup" id="bpGroup">
+      <div class="group-title">Body Part</div>
+      <div class="pills" id="bpPills"></div>
+    </div>
+
+    <div class="pillgroup" id="eqGroup">
+      <div class="group-title">Equipment</div>
+      <div class="pills" id="eqPills"></div>
+    </div>
+
+    <div class="pillgroup" id="lvGroup">
+      <div class="group-title">Level</div>
+      <div class="pills" id="lvPills"></div>
+    </div>
+
+    <div class="pillgroup" id="pgGroup">
+      <div class="group-title">Pregnancy Suitability</div>
+      <div class="pills" id="pgPills"></div>
+    </div>
+
+    <div class="controls-row">
+      <button id="clearBtn" class="ghost" aria-label="Clear all filters">Clear Filters</button>
+    </div>
+  </section>
+
+  <div id="count" class="count" aria-live="polite"></div>
+
+  <section id="results" class="results" aria-label="Results"></section>
+
+  <section class="drawer" id="drawer" aria-label="My Flow" role="dialog" aria-modal="false">
+    <div class="drawer-head">
+      <div class="title">My Flow</div>
+      <button id="closeDrawer" class="ghost" aria-label="Close My Flow">✕</button>
+    </div>
+    <ul id="planList" class="plan"></ul>
+    <div class="drawer-actions">
+      <button id="copyBtn" class="primary">Copy Plan</button>
+      <button id="clearPlanBtn" class="ghost">Clear</button>
+    </div>
+  </section>
+
+  <button id="openDrawer" class="fab" title="Open My Flow" aria-label="Open My Flow">🧾</button>
+
+  <footer class="foot">
+    <small>Press <kbd>/</kbd> to focus search · <a href="privacy.html" target="_blank" rel="noopener">Medical disclaimer</a></small>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>

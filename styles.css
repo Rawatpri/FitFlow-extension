@@ -1,0 +1,72 @@
+:root{
+  --bg:#fffdf8; --card:#ffffff; --ink:#1b1b1b; --muted:#6e6b65; --accent:#6fcf97; --accent-2:#d5f3e3; --border:#eae7dd;
+}
+:root.dark{
+  --bg:#121416; --card:#181b1e; --ink:#e9ecef; --muted:#a7b0b8; --accent:#86efac; --accent-2:#244033; --border:#2a3136;
+}
+/* Warm mode body class as default */
+body.warm{ background:var(--bg); color:var(--ink); }
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{ width:460px; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial; padding:12px; }
+
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.brand{display:flex;gap:8px;align-items:center}
+.brand .leaf{width:28px;height:28px;display:grid;place-items:center;border-radius:10px;background:linear-gradient(135deg,var(--accent-2),transparent)}
+h1{font-size:18px;letter-spacing:.2px;margin:0}
+.top-actions{display:flex;gap:8px;align-items:center}
+.ghost{border:1px solid var(--border);background:var(--card);color:var(--ink);border-radius:10px;padding:6px 10px;cursor:pointer}
+.primary{background:var(--accent);color:#093a28;border:0;border-radius:12px;padding:8px 12px; box-shadow:0 6px 20px rgba(111,207,151,.28);cursor:pointer}
+
+.searchbar{margin:8px 0}
+.searchbar input{ width:100%;padding:10px 12px;border-radius:14px;border:1px solid var(--border);background:var(--card);outline:none;font-size:14px}
+
+.filters{display:grid;gap:10px;margin:8px 0}
+.pillgroup{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:10px}
+.group-title{font-size:12px;color:var(--muted);margin-bottom:8px}
+.pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{ padding:6px 10px;border-radius:999px;border:1px solid var(--border); background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,0)); cursor:pointer;font-size:12px}
+.pill:focus{outline:2px solid var(--accent); outline-offset:2px}
+.pill.active{background:var(--accent);color:#083a2a;border-color:transparent}
+
+.controls-row{display:flex;justify-content:flex-end}
+.count{font-size:12px;color:var(--muted);margin:4px 0 8px}
+
+.results{display:grid;gap:10px}
+.card{ background:var(--card);border:1px solid var(--border);border-radius:16px;padding:10px; box-shadow:0 6px 20px rgba(12,18,12,.04)}
+.thumb{width:100%;height:160px;object-fit:cover;border-radius:12px;background:linear-gradient(135deg,#eef7f0,#fcfffb)}
+.thumb.fallback{display:grid;place-items:center;color:var(--muted);border:1px dashed var(--border)}
+.card h3{margin:8px 0 4px;font-size:15px;cursor:pointer}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}
+.badge{font-size:11px;border:1px solid var(--border);border-radius:999px;padding:2px 8px}
+
+/* Pregnancy badges (renamed suitability) */
+.badge.p-safe{background:#d1fae5;color:#065f46;border-color:transparent}
+.badge.p-caution{background:#fef3c7;color:#92400e;border-color:transparent}
+.badge.p-notsafe{background:#fee2e2;color:#991b1b;border-color:transparent}
+
+.card p{margin:6px 0 8px;font-size:12px;color:var(--muted)}
+.warn{font-size:11px;color:#7a4a00;background:#fff7ed;border:1px solid #fde68a;padding:6px 8px;border-radius:8px;margin-top:6px}
+:root.dark .warn{background:#2b1f09;border-color:#9a6700;color:#f2c97d}
+
+.row{display:flex;gap:8px;flex-wrap:wrap}
+button.small{font-size:12px;padding:6px 8px;border-radius:10px;border:1px solid var(--border);background:var(--card)}
+a.btn{font-size:12px;text-decoration:none;border:1px solid var(--border);padding:6px 8px;border-radius:10px;display:inline-block}
+a.btn:hover{outline:1px dashed #bcd0c7}
+.fav.on{filter:hue-rotate(90deg)}
+
+.drawer{ position: fixed; right: 12px; bottom: 12px; width: 420px; max-height: 70vh; overflow:auto; background: var(--card); border:1px solid var(--border); border-radius:16px; padding:10px; box-shadow:0 12px 30px rgba(6,24,12,.2); display:none;}
+.drawer-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.drawer .title{font-weight:600}
+.plan{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.plan li{display:flex;align-items:center;justify-content:space-between;border:1px solid var(--border);border-radius:12px;padding:8px;font-size:12px;background:var(--bg)}
+.drawer-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+
+.onboard{ border:1px solid var(--border); background:var(--card); border-radius:16px; padding:10px; margin:6px 0 8px; display:none; }
+.onboard .onboard-inner{ display:grid; gap:6px; }
+.onboard ol{ margin:4px 0; padding-left:20px;}
+
+.fab{ position: fixed; right: 20px; bottom: 20px; width:44px;height:44px;border-radius:999px;display:grid;place-items:center; background: var(--accent); color:#083a2a; border:0; cursor:pointer; box-shadow:0 10px 30px rgba(111,207,151,.35)}
+.foot{margin-top:8px;color:var(--muted);text-align:center}
+kbd{background:#efe7d8;border-radius:4px;padding:0 4px}
+:root.dark kbd{background:#1f2937}

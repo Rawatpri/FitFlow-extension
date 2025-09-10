@@ -1,0 +1,552 @@
+[
+  {
+    "id": "glute-bridge",
+    "name": "Glute Bridge",
+    "bodyPart": "glutes",
+    "equipment": "Bodyweight",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Lie on back, knees bent. Drive hips up, squeeze glutes, pause, lower under control.",
+    "image": "https://picsum.photos/seed/glute-bridge/300/180"
+  },
+  {
+    "id": "hip-thrust",
+    "name": "Barbell Hip Thrust",
+    "bodyPart": "glutes",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Upper back on bench; bar over hips; drive hips up to neutral; avoid overextension.",
+    "image": "https://picsum.photos/seed/hip-thrust/300/180"
+  },
+  {
+    "id": "frog-pump",
+    "name": "Frog Pump",
+    "bodyPart": "glutes",
+    "equipment": "Bodyweight",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Soles together, knees out; pulse hips up with glute squeeze.",
+    "image": "https://picsum.photos/seed/frog-pump/300/180"
+  },
+  {
+    "id": "kb-swing",
+    "name": "Kettlebell Swing",
+    "bodyPart": "glutes",
+    "equipment": "Kettlebell",
+    "level": "Intermediate",
+    "pregnancy": "Not Safe",
+    "instructions": "Hinge at hips; snap hips to drive bell to chest height; keep spine neutral.",
+    "image": "https://picsum.photos/seed/kb-swing/300/180"
+  },
+  {
+    "id": "rdl-bb",
+    "name": "Romanian Deadlift",
+    "bodyPart": "hamstrings",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Not Safe",
+    "instructions": "Hinge with soft knees; slide bar along thighs; feel hamstring stretch; neutral back.",
+    "image": "https://picsum.photos/seed/rdl/300/180"
+  },
+  {
+    "id": "nordic-curl",
+    "name": "Nordic Ham Curl",
+    "bodyPart": "hamstrings",
+    "equipment": "None",
+    "level": "Advanced",
+    "pregnancy": "Not Safe",
+    "instructions": "Kneel with ankles fixed; lower body slowly; push back up with minimal hands.",
+    "image": "https://picsum.photos/seed/nordic/300/180"
+  },
+  {
+    "id": "ham-curl-machine",
+    "name": "Seated Hamstring Curl",
+    "bodyPart": "hamstrings",
+    "equipment": "Machine",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Pad above heels; curl pad down; pause and return with control.",
+    "image": "https://picsum.photos/seed/ham-curl/300/180"
+  },
+  {
+    "id": "single-leg-rdl-db",
+    "name": "Single-Leg RDL (DB)",
+    "bodyPart": "hamstrings",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Balance on one leg; hinge at hips; keep hips square; stand tall.",
+    "image": "https://picsum.photos/seed/slrdl/300/180"
+  },
+  {
+    "id": "back-squat",
+    "name": "Back Squat",
+    "bodyPart": "quads",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Not Safe",
+    "instructions": "Feet shoulder-width; brace; sit between hips; drive up through mid-foot.",
+    "image": "https://picsum.photos/seed/back-squat/300/180"
+  },
+  {
+    "id": "front-squat",
+    "name": "Front Squat",
+    "bodyPart": "quads",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Elbows high; torso tall; squat to depth; keep heels down.",
+    "image": "https://picsum.photos/seed/front-squat/300/180"
+  },
+  {
+    "id": "goblet-squat-db",
+    "name": "Goblet Squat",
+    "bodyPart": "quads",
+    "equipment": "Dumbbells",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Hold DB at chest; sit down between hips; keep chest proud.",
+    "image": "https://picsum.photos/seed/goblet/300/180"
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press",
+    "bodyPart": "quads",
+    "equipment": "Machine",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Feet mid-sled; lower until thighs ~90\u00b0; press without locking knees.",
+    "image": "https://picsum.photos/seed/leg-press/300/180"
+  },
+  {
+    "id": "pullup",
+    "name": "Pull-Up",
+    "bodyPart": "back",
+    "equipment": "None",
+    "level": "Advanced",
+    "pregnancy": "Not Safe",
+    "instructions": "From dead hang, pull chest to bar; control down fully.",
+    "image": "https://picsum.photos/seed/pullup/300/180"
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "bodyPart": "back",
+    "equipment": "Machine",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Pull bar to upper chest; elbows drive down; avoid leaning back excessively.",
+    "image": "https://picsum.photos/seed/pulldown/300/180"
+  },
+  {
+    "id": "bentover-row-bb",
+    "name": "Bent-Over Row (BB)",
+    "bodyPart": "back",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Hinge torso; row to lower ribs; keep neck neutral.",
+    "image": "https://picsum.photos/seed/bentrow/300/180"
+  },
+  {
+    "id": "onearm-row-db",
+    "name": "One-Arm Row (DB)",
+    "bodyPart": "back",
+    "equipment": "Dumbbells",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Support on bench; pull DB to hip; pause; control down.",
+    "image": "https://picsum.photos/seed/onearm/300/180"
+  },
+  {
+    "id": "pushup",
+    "name": "Push-Up",
+    "bodyPart": "chest",
+    "equipment": "Bodyweight",
+    "level": "Beginner",
+    "pregnancy": "Needs Caution",
+    "instructions": "Hands under shoulders; straight body line; chest to floor; press up.",
+    "image": "https://picsum.photos/seed/pushup/300/180"
+  },
+  {
+    "id": "benchpress-bb",
+    "name": "Barbell Bench Press",
+    "bodyPart": "chest",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Not Safe",
+    "instructions": "Shoulders set; bar to mid-chest; press to lockout without flaring.",
+    "image": "https://picsum.photos/seed/benchpress/300/180"
+  },
+  {
+    "id": "incline-db-press",
+    "name": "Incline Dumbbell Press",
+    "bodyPart": "chest",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Bench 30\u201345\u00b0; lower to chest line; press with control.",
+    "image": "https://picsum.photos/seed/inclinedb/300/180"
+  },
+  {
+    "id": "cable-fly",
+    "name": "Cable Fly",
+    "bodyPart": "chest",
+    "equipment": "Cable",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Slight forward lean; sweep handles to meet; slow stretch back.",
+    "image": "https://picsum.photos/seed/cablefly/300/180"
+  },
+  {
+    "id": "ohp-db",
+    "name": "Overhead Press (DB)",
+    "bodyPart": "shoulders",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Not Safe",
+    "instructions": "Press overhead; ribs down; control descent.",
+    "image": "https://picsum.photos/seed/ohp/300/180"
+  },
+  {
+    "id": "lateral-raise-db",
+    "name": "Lateral Raise (DB)",
+    "bodyPart": "shoulders",
+    "equipment": "Dumbbells",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Raise to shoulder height; soft elbows; slow down phase.",
+    "image": "https://picsum.photos/seed/latraise/300/180"
+  },
+  {
+    "id": "arnold-press",
+    "name": "Arnold Press",
+    "bodyPart": "shoulders",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Rotate palms from facing-in to forward as you press; control.",
+    "image": "https://picsum.photos/seed/arnold/300/180"
+  },
+  {
+    "id": "facepull",
+    "name": "Face Pull",
+    "bodyPart": "shoulders",
+    "equipment": "Cable",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Rope to nose/eye line; elbows high; squeeze rear delts.",
+    "image": "https://picsum.photos/seed/facepull/300/180"
+  },
+  {
+    "id": "barbell-curl",
+    "name": "Barbell Curl",
+    "bodyPart": "biceps",
+    "equipment": "Barbell",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Elbows fixed; curl up; control down; avoid swinging.",
+    "image": "https://picsum.photos/seed/bcurl/300/180"
+  },
+  {
+    "id": "hammer-curl-db",
+    "name": "Hammer Curl (DB)",
+    "bodyPart": "biceps",
+    "equipment": "Dumbbells",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Neutral grip; curl; squeeze at top; slow lower.",
+    "image": "https://picsum.photos/seed/hcurl/300/180"
+  },
+  {
+    "id": "incline-curl-db",
+    "name": "Incline DB Curl",
+    "bodyPart": "biceps",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Bench inclined; let arms stretch; curl without shoulders rolling.",
+    "image": "https://picsum.photos/seed/icurl/300/180"
+  },
+  {
+    "id": "cable-curl",
+    "name": "Cable Curl",
+    "bodyPart": "biceps",
+    "equipment": "Cable",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Elbows close; curl through full range; steady tempo.",
+    "image": "https://picsum.photos/seed/ccurl/300/180"
+  },
+  {
+    "id": "triceps-pushdown",
+    "name": "Triceps Pushdown",
+    "bodyPart": "triceps",
+    "equipment": "Cable",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Elbows tucked; extend fully; avoid shoulder swing.",
+    "image": "https://picsum.photos/seed/tpush/300/180"
+  },
+  {
+    "id": "oh-triceps-ext-db",
+    "name": "Overhead Triceps Extension (DB)",
+    "bodyPart": "triceps",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Arms overhead; lower DB behind head; extend smoothly.",
+    "image": "https://picsum.photos/seed/text/300/180"
+  },
+  {
+    "id": "closegrip-bench",
+    "name": "Close-Grip Bench Press",
+    "bodyPart": "triceps",
+    "equipment": "Barbell",
+    "level": "Intermediate",
+    "pregnancy": "Not Safe",
+    "instructions": "Grip just inside shoulder width; touch mid-chest; press.",
+    "image": "https://picsum.photos/seed/cgbench/300/180"
+  },
+  {
+    "id": "bench-dips",
+    "name": "Bench Dips",
+    "bodyPart": "triceps",
+    "equipment": "None",
+    "level": "Beginner",
+    "pregnancy": "Needs Caution",
+    "instructions": "Hands on bench; lower until elbows ~90\u00b0; press up.",
+    "image": "https://picsum.photos/seed/bdips/300/180"
+  },
+  {
+    "id": "dead-bug",
+    "name": "Dead Bug",
+    "bodyPart": "core",
+    "equipment": "Bodyweight",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Opposite arm/leg extend; keep lower back gently pressed to floor; move slowly.",
+    "image": "https://picsum.photos/seed/deadbug/300/180"
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "bodyPart": "core",
+    "equipment": "Bodyweight",
+    "level": "Beginner",
+    "pregnancy": "Needs Caution",
+    "instructions": "Elbows under shoulders; squeeze glutes; breathe; keep straight line.",
+    "image": "https://picsum.photos/seed/plank/300/180"
+  },
+  {
+    "id": "pallof-press",
+    "name": "Pallof Press",
+    "bodyPart": "core",
+    "equipment": "Cable",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Stand sideways to cable; press handle out; resist rotation.",
+    "image": "https://picsum.photos/seed/pallof/300/180"
+  },
+  {
+    "id": "hanging-leg-raise",
+    "name": "Hanging Leg Raise",
+    "bodyPart": "core",
+    "equipment": "None",
+    "level": "Advanced",
+    "pregnancy": "Not Safe",
+    "instructions": "Hang from bar; lift legs without swinging; control down.",
+    "image": "https://picsum.photos/seed/hlr/300/180"
+  },
+  {
+    "id": "ab-wheel",
+    "name": "Ab Wheel Rollout",
+    "bodyPart": "core",
+    "equipment": "None",
+    "level": "Advanced",
+    "pregnancy": "Not Safe",
+    "instructions": "Kneel; roll wheel forward under control; brace core; pull back.",
+    "image": "https://picsum.photos/seed/abwheel/300/180"
+  },
+  {
+    "id": "standing-calf-raise",
+    "name": "Standing Calf Raise",
+    "bodyPart": "calves",
+    "equipment": "Bodyweight",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Rise onto toes; pause; lower through full range.",
+    "image": "https://picsum.photos/seed/scalf/300/180"
+  },
+  {
+    "id": "seated-calf-raise",
+    "name": "Seated Calf Raise",
+    "bodyPart": "calves",
+    "equipment": "Machine",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Pad on thighs; raise heels; pause; slow lower.",
+    "image": "https://picsum.photos/seed/seatedcalf/300/180"
+  },
+  {
+    "id": "db-calf-raise",
+    "name": "Dumbbell Calf Raise",
+    "bodyPart": "calves",
+    "equipment": "Dumbbells",
+    "level": "Intermediate",
+    "pregnancy": "Safe",
+    "instructions": "Hold DBs at sides; rise to toes; control descent.",
+    "image": "https://picsum.photos/seed/dbc/300/180"
+  },
+  {
+    "id": "single-leg-calf",
+    "name": "Single-Leg Calf Raise",
+    "bodyPart": "calves",
+    "equipment": "None",
+    "level": "Intermediate",
+    "pregnancy": "Needs Caution",
+    "instructions": "Balance on one foot; hold support if needed; full range each rep.",
+    "image": "https://picsum.photos/seed/singlecalf/300/180"
+  },
+  {
+    "id": "banded-glute-bridge",
+    "name": "Banded Glute Bridge",
+    "bodyPart": "glutes",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Mini-band above knees; drive hips up and push knees out.",
+    "image": "https://picsum.photos/seed/band-glute-bridge/300/180"
+  },
+  {
+    "id": "banded-monster-walk",
+    "name": "Banded Monster Walk",
+    "bodyPart": "glutes",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Mini-band above ankles; slight squat; step diagonally keeping knees out.",
+    "image": "https://picsum.photos/seed/band-monster/300/180"
+  },
+  {
+    "id": "banded-rdl",
+    "name": "Banded RDL",
+    "bodyPart": "hamstrings",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Needs Caution",
+    "instructions": "Stand on band, hold ends; hinge at hips keeping spine neutral.",
+    "image": "https://picsum.photos/seed/band-rdl/300/180"
+  },
+  {
+    "id": "banded-leg-curl",
+    "name": "Banded Leg Curl",
+    "bodyPart": "hamstrings",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Anchor band, loop at ankles; curl heel to glute with control.",
+    "image": "https://picsum.photos/seed/band-curl/300/180"
+  },
+  {
+    "id": "banded-squat",
+    "name": "Banded Squat",
+    "bodyPart": "quads",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Mini-band above knees; squat while maintaining knee alignment outwards.",
+    "image": "https://picsum.photos/seed/band-squat/300/180"
+  },
+  {
+    "id": "banded-row",
+    "name": "Banded Row",
+    "bodyPart": "back",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Anchor band at chest height; pull elbows back, squeeze scapulae.",
+    "image": "https://picsum.photos/seed/band-row/300/180"
+  },
+  {
+    "id": "banded-lat-pulldown",
+    "name": "Banded Lat Pulldown (Door Anchor)",
+    "bodyPart": "back",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Kneel; pull band to chest, control up.",
+    "image": "https://picsum.photos/seed/band-lat/300/180"
+  },
+  {
+    "id": "banded-chest-press",
+    "name": "Banded Chest Press",
+    "bodyPart": "chest",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Anchor behind; press forward similar to cable press.",
+    "image": "https://picsum.photos/seed/band-press/300/180"
+  },
+  {
+    "id": "banded-facepull",
+    "name": "Banded Face Pull",
+    "bodyPart": "shoulders",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Anchor at eye level; pull to nose line with elbows high.",
+    "image": "https://picsum.photos/seed/band-face/300/180"
+  },
+  {
+    "id": "banded-lateral-raise",
+    "name": "Banded Lateral Raise",
+    "bodyPart": "shoulders",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Stand on band; raise arms to shoulder height with soft elbows.",
+    "image": "https://picsum.photos/seed/band-lateral/300/180"
+  },
+  {
+    "id": "banded-biceps-curl",
+    "name": "Banded Biceps Curl",
+    "bodyPart": "biceps",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Stand on band; curl handles up, keep elbows by sides.",
+    "image": "https://picsum.photos/seed/band-biceps/300/180"
+  },
+  {
+    "id": "banded-triceps-pressdown",
+    "name": "Banded Triceps Pressdown",
+    "bodyPart": "triceps",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Anchor overhead; extend elbows down, avoid shoulder movement.",
+    "image": "https://picsum.photos/seed/band-triceps/300/180"
+  },
+  {
+    "id": "banded-pallof-press",
+    "name": "Banded Pallof Press",
+    "bodyPart": "core",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Stand sideways to anchor; press band out, resist rotation.",
+    "image": "https://picsum.photos/seed/band-pallof/300/180"
+  },
+  {
+    "id": "banded-calf-raise",
+    "name": "Banded Calf Raise",
+    "bodyPart": "calves",
+    "equipment": "Band",
+    "level": "Beginner",
+    "pregnancy": "Safe",
+    "instructions": "Loop band under forefoot and over shoulder; rise onto toes.",
+    "image": "https://picsum.photos/seed/band-calf/300/180"
+  }
+]
